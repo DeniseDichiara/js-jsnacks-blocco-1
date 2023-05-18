@@ -1,9 +1,9 @@
 
 
-for(i = 0; i < 3; i ++){
+for(i = 0; i < 10; i ++){
     let userNumber = parseInt(prompt('Enter a number '));
-    
-    let sum = parseInt(userNumber * i)
+     let n = i < 10  
+    let box = parseInt( userNumber *  n)
 
-    console.log (sum)
+    console.log (box)
 }
